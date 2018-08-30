@@ -6,15 +6,16 @@ public final class StringHash {
 
   public static void main(String[] args) {
 
-    for (int i=1; i<2_000_000_000; i+=1_000_000) {
-      final long now = System.nanoTime();
-      char[] chars = new char[i];
+    long now;
+    char[] chars;
+
+    for (int i=1; i<200_000_000; i+=10_000_000) {
+      chars = new char[i];
       java.util.Arrays.fill(chars,'x');
-      new String(chars).hashCode();
+      now = System.nanoTime();
+      chars.hashCode();
       System.out.println("Length: "+ i +" took: "+ (System.nanoTime() - now) +" ns");
     }
-
-
   }
 }
 
