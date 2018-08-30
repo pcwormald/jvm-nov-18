@@ -10,8 +10,7 @@ public final class StringHash {
       final long now = System.nanoTime();
       char[] chars = new char[i];
       java.util.Arrays.fill(chars,'x');
-      String str = new String(chars);
-      str.hashCode();
+      new String(chars).hashCode();
       System.out.println("Length: "+ i +" took: "+ (System.nanoTime() - now) +" ns");
     }
 
