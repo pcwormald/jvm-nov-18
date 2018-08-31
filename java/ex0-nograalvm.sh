@@ -1,7 +1,5 @@
 #!/bin/bash
 
-. ./graalvm-profile
-
 java -version
 sleep 5;
 echo "starting..."
