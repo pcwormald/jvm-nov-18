@@ -3,6 +3,6 @@
 . ./graalvm-profile
 
 java -version
-sleep 5;
+sleep 1;
 echo "starting..."
 java pcwormald/CountUppercase In 2017 I would like to run ALL languages in one VM.
