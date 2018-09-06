@@ -11,7 +11,28 @@ __High-performance polyglot VM__
 * Business differentiators
 * Personal interest vs valid business case
 
+## Background
+
+ * C1 and C2 compilers
+ * Tiered compilation: interpreted -> C1 -> C2
+ * Dynamic, runtime optimizations on the actual hardware
+
+
+
 ## Drop in JIT
+
+
+
+
+@jponge
+Once you compile a JVM application into a native executable, it can run without a JVM. In fact, what you get is a self-contained executable just like you would get with Go.
+
+## system pricing economics
+
+Cost per unit of work?
+Datacentre? Cloud?
+Pricing policies
+FaaS
 
 
 
@@ -56,3 +77,10 @@ https://www.youtube.com/watch?v=7cuch100rRU
 Twitter's quest for a wholly Graal runtime by Chris Thalinger
 
 https://www.youtube.com/watch?v=ZbccuoaLChk
+
+
+
+
+https://medium.com/@jponge/the-graalvm-frenzy-f54257f5932c
+
+
