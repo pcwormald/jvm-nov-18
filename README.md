@@ -1,7 +1,7 @@
-    # jvm-nov-18
+# jvm-nov-18
 __JVM Thing November 2018 Talk on GraalVM__
 ## Acknowledgements
-These examples are taken from the GraalVM website and Ben Evans work on InfoQ, see [resources](## Resources) for full listing
+These examples are taken from the GraalVM website and Ben Evans work on InfoQ, see [resources](#resources) for full listing
 ## What is GraalVM
 __High-performance polyglot VM__
 ## Why should I learn about it?
@@ -37,7 +37,7 @@ __Once you compile a JVM application into a native executable, it can run withou
 * https://www.linkedin.com/in/pcwormald/
 ### GraalVM
 * https://www.graalvm.org/
-### Ben Evans [Author of The Well Grounded Java Developer](https://www.manning.com/books/the-well-grounded-java-developer]
+### Ben Evans [Author of The Well Grounded Java Developer](https://www.manning.com/books/the-well-grounded-java-developer)
 * https://www.infoq.com/articles/Graal-Java-JIT-Compiler
 * https://www.infoq.com/presentations/jmh
 ### Chris Seaton (Oracle)
