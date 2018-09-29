@@ -22,9 +22,9 @@ First set of examples using CountUppercase, taken directly from the GraalVM perm
 * ex-count-graalvm.sh vs ex-count-disable-graalvm.sh
 * startup time slow, then runtime is quicker
 ### Using Hotspot
-* __This should not be at all surprising - the whole point of Graal is that the JIT compiler will be one of the first things to be compiled, and so there will be a lot of JIT compiler warmup in the first few seconds after VM start.__
+* > This should not be at all surprising - the whole point of Graal is that the JIT compiler will be one of the first things to be compiled, and so there will be a lot of JIT compiler warmup in the first few seconds after VM start.
 ## Ahead of Time (AOT) compilation
-__Once you compile a JVM application into a native executable, it can run without a JVM. In fact, what you get is a self-contained executable just like you would get with Go.__@jponge
+> Once you compile a JVM application into a native executable, it can run without a JVM. In fact, what you get is a self-contained executable just like you would get with Go. @jponge
 ## System Pricing Economics
 * Cost per unit of work?
 * Datacentre? Cloud?
