@@ -1,7 +1,7 @@
 # jvm-nov-18
 __JVM Thing November 2018 Talk on GraalVM__
 ## Acknowledgements
-These examples are taken from the GraalVM website and Ben Evans work on InfoQ, see [resources](##resources) for full listing
+These examples are taken from the GraalVM website and Ben Evans work on InfoQ, see [resources](##Resources) for full listing
 ## What is GraalVM
 __High-performance polyglot VM__
 ## Why should I learn about it?
